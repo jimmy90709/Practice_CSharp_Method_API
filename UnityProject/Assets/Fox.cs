@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Fox : MonoBehaviour
 {
-    [Header("移動速度"), Range(1f, 50f)]
-    public float Speed = 20;
+    [Header("移動速度"), Range(1f, 99f)]
+    public float Speed ;
     public Rigidbody2D Rig;
     public SpriteRenderer Sr;
     void Update()
